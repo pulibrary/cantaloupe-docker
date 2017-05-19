@@ -7,6 +7,8 @@ FROM openjdk:8-jdk-alpine
 # $ sudo docker build -t cantaloupe .
 # $ sudo docker run -d --rm -p 8183:8182 -v ./images:/var/lib/cantaloupe/images --name cantaloupe cantaloupe
 
+# Adapted from https://github.com/kaij/cantaloupe
+
 ENV CANTALOUPE_VERSION 3.2.2
 EXPOSE 8182
 
